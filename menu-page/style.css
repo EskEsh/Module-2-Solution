@@ -1,0 +1,168 @@
+body {
+  font-family: "fira-sans-2", sans-serif;
+  background-color: #ccc;
+  font-size: 100%;
+  text-align: justified;
+  background-color: lightcyan;
+  width: 95%;
+  border: 1px solid black;
+
+  box-align: center;
+  border: 10px;
+  padding: 10px; 
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  margin-bottom: 15px;
+  font-size: 1.75em;
+  text-align: center;
+}
+
+h2 {
+  font-size: 1.25em;
+  width: fit-content;
+}
+
+p {
+  background-color: whitesmoke;
+  width: 100%;
+  margin-bottom: 10px;
+  font-family: Helvetica;
+
+  text-align: justified;
+}
+
+/* Responsive Framework. */
+.row {
+  width: 95%;
+  background-color: lightyellow;
+  margin: 10px;
+  border: 1px solid black;
+}
+
+
+.menu {
+  box-align: center;
+  Width: 90%;
+  margin: 5px 5px 20px 5px; /* Top Right Bottom Left */
+  background-color: grey;
+  padding: 10px;
+  border: 1px solid Black;
+  /*display: block;*/
+  box-align: center; 
+}
+
+.menu-item {
+  font-size: 1.25em;
+
+  font-weight: 800;
+  width: fit-content;
+  text-align: center;
+  border: 1px solid black;
+  float: right;
+position: relative; 
+top: 0px; 
+right: 0px;
+}
+
+.menu-content {
+  background-color: green;
+  color: darkblue;
+  font-size: 1em;
+  text-align: justified;
+  padding: 10px;
+  margin-bottom: 20px;
+  float: left; 
+}
+
+#item1 {
+color: Black;
+background-color: pink;
+}
+
+#item2 {
+color: white;
+background-color: red;
+}
+
+#item3 {
+color: black;
+background-color: darkorange;
+}
+
+/* Desktop View */
+@media (min-width: 992px) {
+
+  .col-lg-1,
+  .col-lg-2,
+  .col-lg-3 {
+    float: left;
+    border: 1px solid black;
+  }
+
+  .col-lg-1 {
+    width: 33.33%;
+  }
+
+  .col-lg-2 {
+
+    width: 33.33%;
+  }
+
+  .col-lg-3 {
+    width: 33.33%;
+  }
+}
+
+/* Tablet View */
+@media (min-width: 768px) and (max-width: 991px) {
+
+  .col-md-1,
+  .col-md-2,
+  .col-md-3 {
+    float: left;
+    border: 1px solid black;
+  }
+
+  .col-md-1 {
+    width: 50%;
+  }
+
+  .col-md-2 {
+    width: 50%;
+  }
+
+
+  .col-md-3 {
+    width: 100%;
+  }
+}
+
+/* Mobile View */
+@media (max-width: 767px) {
+
+  .col-sm-1,
+  .col-sm-2,
+  .col-sm-3 {
+    float: left;
+    border: 1px solid black;
+  }
+
+  .col-sm-1 {
+    width: 100%;
+  }
+
+  .col-sm-2 {
+    width: 100%;
+  }
+
+  .col-sm-3 {
+
+    width: 100%;
+  }
+
+}
